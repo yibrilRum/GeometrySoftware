@@ -1,0 +1,12 @@
+5 columns:
+D, E, F, G, H
+
+D: Item; border, glass, bolts
+E: Our Cost; 7.99, 17.39, 1.75
+MarkUpColumns {
+F: 40% Investor Charged; (formula: x * 1.4)
+G: 50% Contractor Charged; (formula: x * 1.5)
+H: 75% Customer Charged; (formula: x * 1.75)
+}
+
+Cost is easy, info is provided by paper. The markup columns are the ones that need formulas.
